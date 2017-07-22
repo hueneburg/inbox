@@ -47,6 +47,7 @@ where
   * **options.auth.XOAuthToken** (optional) is either a String or *inbox.createXOAuthGenerator* object
   * **options.clientId** is optional client ID params object
   * **options.clientId.name** is is the name param etc. see [rfc 2971](http://tools.ietf.org/html/rfc2971#section-3.3) for possible field names
+  * **options.greetingTimeout** is the timeout for the initial connection to the server in ms, default: 15 seconds.
 
 Example:
 ```javascript
